@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Eric Licea Tapia</title>
+
+        <link rel="stylesheet" href="../styles/main.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="/">Eric Licea Tapia</a>
+        </header>
+
+        <main>
+            <section id="projects">
+                <h3>Project 1</h3>
+                <p>Short bio</p>
+                <p>Stack</p>
+                
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                &copy; <span id="year"></span> Eric Licea Tapia. Built with
+                HTML.
+            </p>
+        </footer>
+
+        <script>
+            // small utility: set current year
+            document.getElementById("year").textContent =
+                new Date().getFullYear();
+        </script>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
